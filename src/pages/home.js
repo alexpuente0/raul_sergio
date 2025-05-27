@@ -8,30 +8,30 @@ const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentServiceIndex, setCurrentServiceIndex] = useState(0);
 
-const handleServiceClick = (serviceId) => {
-  const index = services.findIndex((s) => s.id === serviceId);
-  if (index !== -1) {
-    setCurrentServiceIndex(index);
-    setIsModalOpen(true);
-    document.body.style.overflow = 'hidden';
-  } else {
-    console.error(`Service with ID ${serviceId} not found`);
-  }
-};
+  const handleServiceClick = (serviceId) => {
+    const index = services.findIndex((s) => s.id === serviceId);
+    if (index !== -1) {
+      setCurrentServiceIndex(index);
+      setIsModalOpen(true);
+      document.body.style.overflow = "hidden";
+    } else {
+      console.error(`Service with ID ${serviceId} not found`);
+    }
+  };
 
   const handleCloseModal = () => {
     setIsModalOpen(false);
-    document.body.style.overflow = 'auto';
+    document.body.style.overflow = "auto";
   };
 
   const handleNextService = () => {
-    setCurrentServiceIndex((prevIndex) => 
+    setCurrentServiceIndex((prevIndex) =>
       prevIndex === services.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const handlePrevService = () => {
-    setCurrentServiceIndex((prevIndex) => 
+    setCurrentServiceIndex((prevIndex) =>
       prevIndex === 0 ? services.length - 1 : prevIndex - 1
     );
   };
@@ -107,7 +107,7 @@ const handleServiceClick = (serviceId) => {
           <div class="service-grid">
             <div
               class="service-card"
-              data-service="whispering_wind"
+              data-service="whispering_w wind"
               onClick={() => handleServiceClick("whispering_wind")}
             >
               <h3>The Whispering Wind Cut</h3>
@@ -179,9 +179,12 @@ const handleServiceClick = (serviceId) => {
           )}
 
           {/* <!-- Contact Modal Structure --> */}
-          <div id="contactModal" class="modal">
-            <div class="modal-content">
-              <span class="close-modal">&times;</span>
+          <div id="contactModal" class="modal" style={{display: 'none'}}>
+            <div class="modal-content-contact">
+              <span class="close-modal-contact" onClick={() => {
+                document.getElementById('contactModal').style.display = 'none';
+                document.body.style.overflow = 'auto';
+              }}>&times;</span>
               <form
                 id="contactForm"
                 action="https://formspree.io/f/mlezlyew"
@@ -208,10 +211,6 @@ const handleServiceClick = (serviceId) => {
                     rows="4"
                     required
                   ></textarea>
-                </div>
-                <div class="form-group">
-                  <label for="service">Service Interested In</label>
-                  <input type="text" id="service" name="service" readonly />
                 </div>
                 <button type="submit" class="cta-button request-service">
                   Submit Request
@@ -362,7 +361,10 @@ const handleServiceClick = (serviceId) => {
             discretion."
           </p>
           <div class="cta">
-            <button class="cta-button" data-modal="contactModal">
+            <button class="cta-button" onClick={() => {
+              document.getElementById('contactModal').style.display = 'block';
+              document.body.style.overflow = 'hidden';
+            }}>
               Submit Your Request
             </button>
           </div>

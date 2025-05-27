@@ -447,11 +447,26 @@ body.modal-open {
   padding: 2rem;
   border-radius: 8px;
   max-width: 800px;
-  position: relative;
+  position: absolute;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transform: translateY(-50%);
   top: 50%;
   animation: modalFadeIn 0.3s ease-out;
+}
+
+.modal-content-contact {
+  background-color: var(--bg-light);
+  margin: 20px auto;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
+  position: absolute;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
 .modal-description {
@@ -591,18 +606,6 @@ body.modal-open {
   overflow-y: auto;
 }
 
-.modal-content {
-  background-color: var(--bg-light);
-  padding: 2rem;
-  border-radius: 8px;
-  max-width: 800px;
-  width: 90%;
-  max-height: 90vh;
-  overflow-y: auto;
-  position: absolute;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
 .modal-description {
   display: flex;
   flex-direction: row;
@@ -611,7 +614,7 @@ body.modal-open {
   color: var(--text-light);
 }
 
-.close-modal {
+.close-modal-contact {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -622,7 +625,7 @@ body.modal-open {
   transition: color 0.3s ease;
 }
 
-.close-modal:hover {
+.close-modal-contact:hover {
   color: var(--accent);
 }
 

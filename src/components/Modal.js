@@ -18,9 +18,16 @@ const Modal = ({ service, services, onClose, onNext, onPrev }) => {
             <p>{service.description}</p>
 
             <div class="cta">
-              <a href="../index.html#contact" class="cta-button">
-                Request Consultation
-              </a>
+              <button
+                class="cta-button"
+                onClick={() => {
+                  document.getElementById("contactModal").style.display =
+                    "block";
+                  document.body.style.overflow = "hidden";
+                }}
+              >
+                Inquire about this service
+              </button>
             </div>
           </div>
         </div>
