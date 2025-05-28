@@ -372,6 +372,13 @@ footer {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  .hero {
+    background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.95)),
+      url("/src/assets/bkg2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media (max-width: 768px) {
