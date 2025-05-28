@@ -310,86 +310,12 @@ gap: 1rem;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* .testimonial-carousel {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-} */
-
 .card {
   background-color: var(--bg-light);
   border-radius: 8px;
   padding: 2rem;
   transition: all 0.3s ease;
 }
-
-/*
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-}
-
-.carousel-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-}
-
-.carousel-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-.carousel-content p {
-    font-size: 1rem;
-    color: var(--text-light);
-} */
-
-/* .react-multi-carousel-track {
-    display: flex;
-    transition: transform 0.5s ease;
-    width: 100%;
-} */
-/*
-.testimonial-slide {
-    display: flex;
-    min-width: 100%;
-    gap: 2rem;
-    padding: 1rem 0;
-}
-
-.carousel-nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    color: var(--secondary);
-    font-size: 2rem;
-    cursor: pointer;
-    z-index: 10;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-
-.carousel-nav.prev {
-    left: 10;
-    display: none;
-}
-
-.carousel-nav.next {
-    right: 0;
-    display: none;
-}
-
-.carousel-nav:hover {
-    color: var(--accent);
-    transform: translateY(-50%) scale(1.2);
-} */
 
 /* Footer */
 footer {
@@ -409,6 +335,45 @@ footer {
 }
 
 /* Responsive */
+
+@media screen and (max-width: 768px) {
+  .language-switcher {
+    top: 10px;
+    right: 10px;
+  }
+
+  .modal-content h2 {
+    font-size: 2rem;
+  }
+
+  .modal-description {
+    display: flex;
+    flex-direction: column ! important;
+    margin-top: 0 ! important;
+    font-size: 1.2rem;
+    color: var(--text-light);
+  }
+  
+  .modal-description img {
+    object-fit: cover !important;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+
+  .modal-description p {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .cta {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -416,6 +381,112 @@ footer {
 
   section {
     padding: 4rem 1rem;
+  }
+
+  .language-switcher {
+    border-radius: 20px;
+    text-align: center;
+    /*make background color transparency*/
+    background-color: #172a45c0 !important;
+  }
+
+  /* Modal Responsive Styles */
+  .modal-content {
+    width: 95%;
+    height: 90%;
+    top: 400px !important;
+    transform: none;
+    position: relative;
+    margin: 10px auto;
+    padding: 1rem;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .modal-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+  }
+
+  .txt-cta {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start !important;
+    gap: 0;
+  }
+
+  .modal-navigation {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .modal-navigation button {
+    width: 45%;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .close-modal {
+    font-size: 1.5rem;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  /* Client Grid Responsive */
+  .client-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  .client-item {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Testimonial Carousel Responsive */
+  .carousel-container {
+    padding: 1rem 0;
+  }
+
+  .react-multi-carousel-track {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+  }
+
+  .carousel-item {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .card {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .testimonial-author {
+    font-size: 1.2rem;
   }
 }
 
@@ -606,13 +677,15 @@ body.modal-open {
   overflow-y: auto;
 }
 
-.modal-description {
+/* .modal-description {
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
   font-size: 1.2rem;
   color: var(--text-light);
-}
+} */
+
+
 
 .close-modal-contact {
   position: absolute;
