@@ -46,7 +46,7 @@ const testimonials = [
   },
   {
     id: 10,
-    text: "Raul Sergio's work is pure artistry. He transformed my hair for a gala, and I felt like a queen. His techniques are truly one of a kind.",
+    text: "Simply the best, no more words needed.",
     author: "Scarlett Johansson",
   }
 ];

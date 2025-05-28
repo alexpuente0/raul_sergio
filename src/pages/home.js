@@ -84,7 +84,7 @@ const Home = () => {
             <div class="client-item">Rihanna</div>
             <div class="client-item">Tilda Swinton</div>
             <div class="client-item">Julianne Moore</div>
-            <div class="client-item">Dwayne "The Rock" Johnson</div>
+            <div class="client-item">Dwayne Johnson</div>
             <div class="client-item">Jennifer Lawrence</div>
             <div class="client-item">Emma Stone</div>
             <div class="client-item">David Tennant</div>
@@ -107,7 +107,7 @@ const Home = () => {
           <div class="service-grid">
             <div
               class="service-card"
-              data-service="whispering_w wind"
+              data-service="whispering_wind"
               onClick={() => handleServiceClick("whispering_wind")}
             >
               <h3>The Whispering Wind Cut</h3>

@@ -401,7 +401,7 @@ footer {
   .modal-content {
     width: 95%;
     height: 90%;
-    top: 400px !important;
+    /* top: 400px !important; */
     transform: none;
     position: relative;
     margin: 10px auto;
