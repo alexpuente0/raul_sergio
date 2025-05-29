@@ -181,6 +181,7 @@ const HomeES = () => {
               onClose={handleCloseModal}
               onNext={handleNextService}
               onPrev={handlePrevService}
+              ctaText="Solicitar Información"
             />
           )}
 

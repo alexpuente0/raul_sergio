@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-const Modal = ({ service, services, onClose, onNext, onPrev, ctaText = "Inquire" }) => {
+const Modal = ({ service, services, onClose, onNext, onPrev, ctaText }) => {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
   const modalRef = useRef();

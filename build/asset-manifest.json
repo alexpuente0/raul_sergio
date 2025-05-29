@@ -1,28 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b52e6c6.css",
-    "main.js": "/static/js/main.776f5008.js",
-    "static/js/453.6ac38db7.chunk.js": "/static/js/453.6ac38db7.chunk.js",
+    "main.css": "/static/css/main.7736d023.css",
+    "main.js": "/static/js/main.c5c1edec.js",
     "static/media/ChatGPT Image May 14, 2025, 01_00_51 PM.png": "/static/media/ChatGPT Image May 14, 2025, 01_00_51 PM.6100a63adb7a8125f84c.png",
     "static/media/ChatGPT Image May 16, 2025, 02_02_03 PM.png": "/static/media/ChatGPT Image May 16, 2025, 02_02_03 PM.564889a6cd19d519d426.png",
     "static/media/whispering_wind.png": "/static/media/whispering_wind.0377d97f9881864e4597.png",
     "static/media/lunar_lustre_treatment.png": "/static/media/lunar_lustre_treatment.305f74b881006d202204.png",
     "static/media/sunstone_sculpt.png": "/static/media/sunstone_sculpt.afbfb89752bdda20a27b.png",
     "static/media/smoothing.png": "/static/media/smoothing.cb400990417e3350a5fb.png",
-    "static/media/ChatGPT Image May 16, 2025, 01_21_20 PM.png": "/static/media/ChatGPT Image May 16, 2025, 01_21_20 PM.31aeeaccf45289ce8c08.png",
-    "static/media/RWT.png": "/static/media/RWT.db4e43360c19e949d7c6.png",
     "static/media/consultation.png": "/static/media/consultation.d410ccaacf4c69c435c7.png",
     "static/media/ChatGPT Image May 14, 2025, 12_57_23 PM.png": "/static/media/ChatGPT Image May 14, 2025, 12_57_23 PM.8fa16bcb3bd1393090ef.png",
     "static/media/ChatGPT Image May 14, 2025, 12_55_40 PM.png": "/static/media/ChatGPT Image May 14, 2025, 12_55_40 PM.42321635bbab6fc26ad3.png",
     "static/media/ChatGPT Image May 14, 2025, 12_50_59 PM.png": "/static/media/ChatGPT Image May 14, 2025, 12_50_59 PM.837a1fc3a9fe166362ec.png",
     "static/media/Gemini_Generated_Image_781n2n781n2n781n.png": "/static/media/Gemini_Generated_Image_781n2n781n2n781n.454e26c5715a42183a47.png",
     "static/media/Gemini_Generated_Image_ot22nwot22nwot22.png": "/static/media/Gemini_Generated_Image_ot22nwot22nwot22.a807eca3e404c821df3d.png",
-    "static/media/craiyon_144305_a_stylish_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses.png": "/static/media/craiyon_144305_a_stylish_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses.2560e0825829a01e5cca.png",
     "static/media/bkg2.png": "/static/media/bkg2.7f2ec77233cea769d6dd.png",
-    "static/media/craiyon_144318_a_stylish_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses.png": "/static/media/craiyon_144318_a_stylish_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses.58260d84a9df2005c617.png",
-    "static/media/craiyon_143924_a_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses__stylish.png": "/static/media/craiyon_143924_a_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses__stylish.ea023dd1539d636738d4.png",
-    "static/media/backgroundimage.png": "/static/media/backgroundimage.259659d8a6fbaf5b6562.png",
-    "static/media/craiyon_144315_a_stylish_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses.png": "/static/media/craiyon_144315_a_stylish_middle_aged_heavy_se_man__with_gray_long_wavy_hair__and_modern_sunglasses.f3ba30d747fff65aa1af.png",
     "static/media/ll02.png": "/static/media/ll02.4135f8327016a5ce0eb3.png",
     "static/media/ww33.png": "/static/media/ww33.e1d498a6830042052d85.png",
     "static/media/xx55.png": "/static/media/xx55.ce46d1731baea6aad83e.png",
@@ -32,12 +24,11 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.3b52e6c6.css.map": "/static/css/main.3b52e6c6.css.map",
-    "main.776f5008.js.map": "/static/js/main.776f5008.js.map",
-    "453.6ac38db7.chunk.js.map": "/static/js/453.6ac38db7.chunk.js.map"
+    "main.7736d023.css.map": "/static/css/main.7736d023.css.map",
+    "main.c5c1edec.js.map": "/static/js/main.c5c1edec.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b52e6c6.css",
-    "static/js/main.776f5008.js"
+    "static/css/main.7736d023.css",
+    "static/js/main.c5c1edec.js"
   ]
 }

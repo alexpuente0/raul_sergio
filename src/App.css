@@ -508,7 +508,7 @@ body.modal-open {
   padding: 2rem;
   border-radius: 8px;
   max-width: 90%;
-  width: 800px;
+  width: 900px;
   position: absolute;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transform: translateY(-50%);
@@ -664,6 +664,7 @@ body.modal-open {
   grid-template-columns: 60% 40%;
   gap: 2rem;
   margin-top: 1rem;
+  width: 90%;
 }
 
 .modal-desktop .modal-image-container {
